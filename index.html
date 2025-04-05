@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="top" class="hidden">
+            <div id="hearts-container" >❤️❤️❤️</div>
+            <div id="score">Score: 0</div>
+    </section>
+
+    <main id="main">
+       
+        <div class="start flex">
+            <h1 id="title">Guess the word</h1>
+            <button class="btn0"  id="start-button">Start</button>
+        </div>
+
+        <div class="game hidden flex">
+            <h3 id="word">Word</h3>
+            <input id="guess" type="text">
+            <button class="btn1" id="guess-button">Guess</button>
+        </div>
+
+        <div class="end hidden flex">
+            <h1 id="title2">Game ended</h1>
+            <button class="btn2"  id="end-button">Re-start</button>
+        </div>
+    </main>
+    <div id="in" >
+        <p>Instructions:</p>
+            <ul>
+                <li>Click on the start button to begin the game.</li>
+                <li>Guess the word by typing in the input field and clicking the guess button.</li>
+                <li>You have total 3 hearts, if you guess incorrectly, you will see one heart got deducted.</li>
+                <li>If you want to restart the game, click on the re-start button.</li>
+            </ul>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
